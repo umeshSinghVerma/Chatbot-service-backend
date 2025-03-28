@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Create Iframe
   const chatbotIframe = document.createElement("iframe");
-  chatbotIframe.src = `${process.env.BOT_URL}/${currentScript.id}`;
+  chatbotIframe.src = `https://chatbot-service-bot.vercel.app/${currentScript.id}`;
   chatbotIframe.style.width = "100%";
   chatbotIframe.style.height = "100%";
   chatbotIframe.style.border = "none";
